@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="125.016">
+    <testcase classname="Search and place order for vegetables" name="search item and validate the actual result" time="18.155">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given User is on GreenKart page.............................................passed
+When User searched for cucumber vegetable...................................passed
+Then "cucumber" should be dispplayed........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at Step_defination.SearchStepDefination.something_should_be_dispplayed(SearchStepDefination.java:43)
+	at ✽."cucumber" should be dispplayed(file:///D:/Ecplise/eclipse/CucumberJava/Java/src/test/java/cucumberAutomation/search.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Search and place order for vegetables" name="search item and move to checkout page" time="35.033">
+        <failure message="expected:&lt;Cauliflower[ - 1 Kg]&gt; but was:&lt;Cauliflower[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given User is on GreenKart page.............................................passed
+When User searched for Cauliflower vegetable................................passed
+And add to items to cart....................................................passed
+And user procceed to checkout page..........................................passed
+Then verify selected Cauliflower items is displayed or not..................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Cauliflower[ - 1 Kg]> but was:<Cauliflower[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at Step_defination.SearchStepDefination.verify_selected_items_is_displayed_or_not(SearchStepDefination.java:71)
+	at ✽.verify selected Cauliflower items is displayed or not(file:///D:/Ecplise/eclipse/CucumberJava/Java/src/test/java/cucumberAutomation/search.feature:16)
+]]></failure>
+    </testcase>
+    <testcase classname="Search and place order for vegetables" name="search item and move to checkout page 2" time="35.953">
+        <failure message="expected:&lt;[Cucumber - 1 Kg]&gt; but was:&lt;[cucumber]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given User is on GreenKart page.............................................passed
+When User searched for cucumber vegetable...................................passed
+And add to items to cart....................................................passed
+And user procceed to checkout page..........................................passed
+Then verify selected cucumber items is displayed or not.....................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Cucumber - 1 Kg]> but was:<[cucumber]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at Step_defination.SearchStepDefination.verify_selected_items_is_displayed_or_not(SearchStepDefination.java:71)
+	at ✽.verify selected cucumber items is displayed or not(file:///D:/Ecplise/eclipse/CucumberJava/Java/src/test/java/cucumberAutomation/search.feature:16)
+]]></failure>
+    </testcase>
+    <testcase classname="Search and place order for vegetables" name="search item and move to checkout page 3" time="35.486">
+        <failure message="expected:&lt;[Beetroot - 1 Kg]&gt; but was:&lt;[beetroot]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given User is on GreenKart page.............................................passed
+When User searched for beetroot vegetable...................................passed
+And add to items to cart....................................................passed
+And user procceed to checkout page..........................................passed
+Then verify selected beetroot items is displayed or not.....................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Beetroot - 1 Kg]> but was:<[beetroot]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at Step_defination.SearchStepDefination.verify_selected_items_is_displayed_or_not(SearchStepDefination.java:71)
+	at ✽.verify selected beetroot items is displayed or not(file:///D:/Ecplise/eclipse/CucumberJava/Java/src/test/java/cucumberAutomation/search.feature:16)
+]]></failure>
+    </testcase>
+</testsuite>
