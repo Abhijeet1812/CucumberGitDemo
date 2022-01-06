@@ -20,7 +20,17 @@ public class GetProperties {
 
 	System.out.println("hello Get6");
 
-	System.out.println("hello Get7");
+	System.out.println("hello Get7 ");
+	
+	
+	
+	System.out.println("Develop 1);
+
+	System.out.println("Develop 2");
+
+	System.out.println("Develop 3");
+
+	System.out.println("Develop 4");
 	
 
 }
