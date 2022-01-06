@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Maven Jar Plugin 3.2.0
+Build-Jdk-Spec: 11
+Specification-Title: Cucumber-JVM: Core
+Specification-Version: 7.0
+Implementation-Title: Cucumber-JVM: Core
+Implementation-Version: 7.0.0
+Main-Class: io.cucumber.core.cli.Main
+Automatic-Module-Name: io.cucumber.core
+
